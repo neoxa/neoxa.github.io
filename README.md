@@ -1,3 +1,2 @@
-# neoxa.github.io
-website
+# My website
 https://neoxa.github.io/
