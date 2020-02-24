@@ -1,12 +1,13 @@
 body { 
-    font-family: serif;
-    background-color:#fff4d4;
+    font-family: Yu Gothic, serif;
+    background-color:#fff7e0;
     color: #222222;
     width: 90%;
     margin: 0px auto 0px auto;
 }
 
 #title a{
+    font-family: serif;
     text-decoration: none;
     color:black;
 }
@@ -16,11 +17,13 @@ nav ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: rgb(117, 86, 0);
+    background-color: rgb(116, 116, 116);
   }
   
 nav ul li {
     float: left;
+    font-size: 18px;
+    font-weight: bold;
   }
   
 nav ul li a {
@@ -28,15 +31,29 @@ nav ul li a {
     color: rgb(255, 255, 255);
     text-align: center;
     /*padding: 5px 30px;*/
-    width: 80px;
+    width: 120px;
     text-decoration: none;
-    line-height: 50px;
+    line-height: 40px;
   }
   
 nav ul li a:hover:not(.active) {
-    background-color: rgba(255, 187, 0, 0.658);
+    background-color: rgba(182, 52, 58, 0.658);
   }
 
   .active {
-    background-color: rgb(180, 22, 22);
+    background-color: rgb(150, 0, 0);
   }
+
+#SNS {
+    list-style-type: none;
+    border: solid 1px rgb(255, 174, 0);
+    border-radius: 0.4em;
+    background: #ffffff;
+    width:450px
+
+}
+
+#SNS a {
+  color: black;
+  text-decoration: none;
+}
