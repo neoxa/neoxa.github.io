@@ -1,15 +1,20 @@
 body { 
-    font-family: Yu Gothic, serif;
+    font-family: Yu Gothic, Yu_Gothic, serif;
     background-color:#fff7e0;
     color: #222222;
     width: 90%;
     margin: 0px auto 0px auto;
+    font-size: 100%;
 }
 
-#title a{
-    font-family: serif;
+#header .title a{
+    font-family: Yu Mincho, Yu_Mincho, serif;
     text-decoration: none;
     color:black;
+}
+
+#header .titledesc{
+    font-weight:500;
 }
 
 nav ul {
@@ -30,7 +35,6 @@ nav ul li a {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    /*padding: 5px 30px;*/
     width: 120px;
     text-decoration: none;
     line-height: 40px;
@@ -44,16 +48,37 @@ nav ul li a:hover:not(.active) {
     background-color: rgb(150, 0, 0);
   }
 
-#SNS {
+.identity {
+    display: inline-block;
     list-style-type: none;
     border: solid 1px rgb(255, 174, 0);
     border-radius: 0.4em;
     background: #ffffff;
-    width:450px
-
+    margin: 2rem;
+    padding: 1rem;
 }
 
-#SNS a {
+.identity a {
   color: black;
   text-decoration: none;
+}
+
+.main p {
+  text-indent: 1em;
+}
+
+.section {
+  display: inline-block;
+  border-top: double rgb(150, 0, 0);
+  border-bottom: double rgb(150, 0, 0);
+  background-color: rgb(255, 225, 168);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section {
+  counter-increment: section;
+}
+.section::before {
+  content: counter(section)". ";
 }
