@@ -1,5 +1,6 @@
 body { 
-    font-family: Yu Gothic, Yu_Gothic, serif;
+    font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", sans-serif;
+
     background-color:#fff7e0;
     color: #222222;
     width: 90%;
@@ -8,7 +9,8 @@ body {
 }
 
 #header .title a{
-    font-family: Yu Mincho, Yu_Mincho, serif;
+    font-family:"游明朝体", "Yu Mincho", YuMincho, sans-serif;
+
     text-decoration: none;
     color:black;
 }
