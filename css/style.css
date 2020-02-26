@@ -76,6 +76,7 @@ nav ul li a:hover:not(.active) {
   background-color: rgb(255, 225, 168);
   padding-left: 2rem;
   padding-right: 2rem;
+  margin-bottom: 0rem;
 }
 
 .section {
